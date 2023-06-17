@@ -1,0 +1,19 @@
+h1,h2{
+    color: white;
+    text-align: center;
+}
+
+body{
+    background-color: black;
+}
+p{
+    color: white;
+}
+img{
+    width:auto ;
+    margin: auto;
+    display: block;
+    border-radius: 70px;
+    border-color: aqua;
+    border-style: solid;
+}      
