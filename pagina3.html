@@ -7,6 +7,28 @@
     <title>Document</title>
 </head>
 <body>
+   <h1> preencer o formulario abiaxo para mandar informações para o arquiteto informações do terreno e informações para o arquiteto entrar em contato.</h1>
+    <form action="/pagina-processa-dados-do-form" method="post">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" />
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" />
+        </div>
+        <div>
+            <label for="msg">O tamanho do lote/terreno:</label>
+            <input type="text" id="lote/terreno"/>
+        </div>
+        <div>
+            <label for="msg">Mensagem:</label>
+            <textarea id="msg" name="usuario_msg"> </textarea>
+        </div>
     
+        <div class="button">
+            <button type="submit">Enviar sua mensagem</button>
+        </div>
+    </form>
 </body>
 </html>
