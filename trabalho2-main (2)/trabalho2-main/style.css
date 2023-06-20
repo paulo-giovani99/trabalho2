@@ -1,0 +1,26 @@
+h1,h2{
+    text-align: center;
+    color: white;
+}
+p{
+    font-family: Arial;
+    color: white;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+img{
+    width: auto;
+    margin: auto;
+    display: block;
+    border-radius: 70px;
+    border-color: blueviolet;
+    border-style: solid;
+}
+
+
+
+
+
+
