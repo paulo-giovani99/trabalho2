@@ -1,29 +1,40 @@
+:root{
+    --corprincipal:#9E3E39;
+    --corsecundaria:#499E69;
+    --corterciaria:#84EAAB;
+    --correserva:#EB8983;
+}
 h1,h2{
-    color: white;
+    color: var(--corsecundaria);
     text-align: center;
+    font-family: Georgia;
 }
 
 body{
-    background-color: black;
+    background-color: var(--corprincipal);
 }
 p{
-    color: white;
+    color: var(--corterciaria);
+    font-family: Arial;
 }
 img{
     width:auto ;
     margin: auto;
     display: block;
     border-radius: 30px;
-    border-color: aqua;
+    border-color: var(--correserva);
     border-style: solid;
 } 
 
 #img1{
     border-radius: 90px;
-    border-color: blue;
+    border-color: var(--correserva);
     border-style: solid;
 }
 a{
-    text-decoration: none;
-    background-color: blue;
+    color: var(--correserva);
+    border-style: solid;
+    border-radius: 30px;
+    
+    
 }

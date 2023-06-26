@@ -4,38 +4,31 @@
     --corterciaria:#84EAAB;
     --correserva:#EB8983;
 }
+
+
+
 body{
+    
     background-color: var(--corprincipal);
+
 }
 
-h1,h2{
+h1{
     text-align: center;
     color: var(--corsecundaria);
+    font-family: Georgia;
+
 }
 p{
-    font-family: Arial;
-    color:var(--corterciaria);
     text-align: center;
+    color: var(--corterciaria);
     font-family: Arial;
 }
 img{
-    width: auto;
+    width:auto ;
     margin: auto;
     display: block;
+    border-radius: 30px;
     border-color: var(--correserva);
+    border-style: solid;
 }
-li{
-    color: var(--corterciaria);
-    text-align: center;
-    text-shadow: none;
-}
-
-div.imagem {
-	width: 50px;
-    height: 30px;
-}
-
-
-
-
-
