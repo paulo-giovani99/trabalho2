@@ -1,8 +1,8 @@
 :root{
-    --corprincipal:#9E3E39;
-    --corsecundaria:#499E69;
-    --corterciaria:#84EAAB;
-    --correserva:#EB8983;
+    --corprincipal:#c4deaf;
+    --corsecundaria:#327d26;
+    --corterciaria:#639d53;
+    --correserva:#94be81;
 }
 body{
     background-color: var(--corprincipal);
@@ -23,6 +23,9 @@ img{
     margin: auto;
     display: block;
     border-color: var(--correserva);
+    text-align: right;
+    
+
 }
 li{
     color: var(--corterciaria);
@@ -30,11 +33,32 @@ li{
     text-shadow: none;
 }
 
-div.imagem {
-	width: 50px;
-    height: 30px;
+
+a{
+    color: var(--correserva);
+    border-style: solid;
+    border-radius: 20%;
+    text-align: center;
+    
+    
+}
+footer{
+    text-align: center;
+    color: var(--corterciaria);
+}
+h5{
+    border-style: solid;
+    border-color: var(--corsecundaria);
 }
 
+div{
+    display: flex;
+    
+}
+h4{
+    border-style: solid;
+    color: var(--corsecundaria);
+}
 
 
 
