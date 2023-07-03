@@ -1,20 +1,15 @@
-:root{
-    --corprincipal:#c4deaf;
-    --corsecundaria:#327d26;
-    --corterciaria:#639d53;
-    --correserva:#94be81;
-}
+
 body{
-    background-color: var(--corprincipal);
+    background-color: black;
 }
 
 h1,h2{
     text-align: center;
-    color: var(--corsecundaria);
+    color: blue;
 }
 p{
     font-family: Arial;
-    color:var(--corterciaria);
+    color:white;
     text-align: center;
     font-family: Arial;
 }
@@ -28,36 +23,44 @@ img{
 
 }
 li{
-    color: var(--corterciaria);
+    color: white;
     text-align: center;
     text-shadow: none;
 }
-
-
-a{
-    color: var(--correserva);
-    border-style: solid;
-    border-radius: 20%;
-    text-align: center;
-    
-    
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
 }
-footer{
-    text-align: center;
-    color: var(--corterciaria);
+#menu-h{
+    list-style: none;
+    padding: 0;
+    background-color: blue;
 }
-h5{
-    border-style: solid;
-    border-color: var(--corsecundaria);
+#menu-h li{
+    display: inline;
+}
+#menu-h li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    font-family: Verdana;
+    display: inline;
+    transition: background .6s;
+}
+#menu-h li a:hover{
+   background-color: black;
 }
 
-div{
+.container{
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
 }
-h4{
-    border-style: solid;
-    color: var(--corsecundaria);
+div{
+    justify-content: center;
+    margin: auto;
 }
 
 

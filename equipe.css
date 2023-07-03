@@ -9,20 +9,20 @@
 
 body{
     
-    background-color: var(--corprincipal);
+    background-color: black;
 
 }
 
 h1{
     text-align: center;
-    color: var(--corsecundaria);
+    color: blue;
     font-family: Georgia;
     font-size: 60px;
 
 }
 p{
     text-align: center;
-    color: var(--corterciaria);
+    color: white;
     font-family: Arial;
     font-size: 36px;
 }
@@ -35,23 +35,44 @@ img{
     border-style: solid;
     
 }
-a{
-    color: var(--correserva);
-    border-style: solid;
-    border-radius: 20%;
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+#menu-h{
+    list-style: none;
+    padding: 0;
+    background-color: blue;
+}
+#menu-h li{
+    display: inline;
+}
+#menu-h li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    font-family: Verdana;
+    display: inline;
+    transition: background .6s;
+}
+#menu-h li a:hover{
+   background-color: black;
+}
+li{
+    color: blue;
     text-align: center;
-    
-    
 }
 div{
     display: flex;
 }
 h2{
     text-align: center;
-    color: var(--corsecundaria);
+    color: white;
     font-family: Georgia;
 }
 h3{
     border-style: solid;
-    color: var(--corsecundaria);
+    color: blue;
 }
