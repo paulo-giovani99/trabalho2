@@ -1,0 +1,78 @@
+@font-face {
+    font-family: minhafonte;
+    src: url(RichAuntieDemoRegular.ttf);
+}
+@font-face {
+    font-family: minhafonte2;
+    src: url(Valegan\ Demo.otf);
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+    font-family: minhafonte;
+}
+h2{
+    text-align: center;
+    color: blue;
+    font-family: Georgia;
+}
+p{
+    font-family: Arial;
+    color:white;
+    text-align: center;
+    font-family: Arial;
+}
+img{
+    width: auto;
+    margin: auto;
+    display: block;
+    border-color: var(--correserva);
+    text-align: right;
+}
+li{
+    color: white;
+    text-align: center;
+    text-shadow: none;
+}
+#menu-h{
+    list-style: none;
+    padding: 0;
+    background-color: blue;
+}
+#menu-h li{
+    display: inline;
+}
+#menu-h li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    font-family: minhafonte2;
+    display: inline;
+    transition: background .6s;
+}
+#menu-h li a:hover{
+   background-color: black;
+}
+
+.container{
+    margin: auto;
+    display: flex;
+}
+
+.container div{
+    display: inline-flex;
+}
+footer{
+    background-color: blue;
+}

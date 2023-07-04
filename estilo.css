@@ -1,8 +1,21 @@
+@font-face {
+    font-family:minhafonte;
+    src: url(RichAuntieDemoRegular.ttf);
+}
+@font-face {
+    font-family: minhafonte2;
+    src: url(Valegan\ Demo.otf);
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 h1{
     color: blue;
     text-align: center;
-    font-family: Georgia;
+    font-family:minhafonte;
 }
 
 body{
@@ -22,19 +35,13 @@ img{
     border-style: solid;
     text-align: left;
     position: static;
-    
-
 } 
 
 h2{
     text-align: left;
     color: blue;
 }
-*{
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 #menu-h{
     list-style: none;
     padding: 0;
@@ -48,7 +55,7 @@ h2{
     text-decoration: none;
     padding: 20px;
     display: inline-block;
-    font-family: Verdana;
+    font-family:minhafonte2 ;
     display: inline;
     transition: background .6s;
 }
@@ -61,4 +68,37 @@ li{
 }
 footer{
     background-color: blue;
+}
+
+.div-foto{
+    display: inline-flex;
+    align-items: center;
+    margin: 0 500px 0 500px;
+}
+.div-foto p{
+    text-align: justify;
+    padding: 0 0 0 10px;
+}
+
+@media screen and (max-width: 1650px) {
+    .div-foto{
+        display: inline-flex;
+        align-items: center;
+        margin: 0 200px 0 200px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .div-foto{
+        display: inline-flex;
+        align-items: center;
+        margin: 0 100px 0 100px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .div-foto{
+        display: inline-flex;
+        align-items: center;
+        margin: 0;
+    }
 }
